@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selenide.*;
 
-public class SelenideTestFJ {
+public class SelenideTestFJ extends TestBase{
 
     @Test
-    void shouldFindSelenide() throws InterruptedException {
+    void shouldFindSelenide () throws InterruptedException{
         //открыть страницу github.com
         open("https://github.com");
         //ввести в поле поиска selenide и нажать Enter
